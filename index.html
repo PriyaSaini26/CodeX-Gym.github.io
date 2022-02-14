@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeX Gym</title>
+    <link rel="stylesheet" href="style.css" class="css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@500&family=Dancing+Script:wght@700&family=Lobster&family=Patua+One&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            color: white;
+            background: url('background.jpg');
+            background-size: cover;
+            font-family: 'Baloo Da 2', cursive;
+            font-family: 'Dancing Script', cursive;
+            font-family: 'Lobster', cursive;
+            font-family: 'Patua One', cursive;
+        }
+
+        .left {
+
+            display: inline-block;
+            position: absolute;
+            left: 34px;
+            top: 10px;
+        }
+
+        .mid {
+
+            display: block;
+            width: 50%;
+            margin: 5px auto;
+        }
+
+        .right {
+
+            position: absolute;
+            right: 34px;
+            top: 10px;
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+            margin: 7px;
+            font-size: 23px;
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+
+            text-shadow: 3px 3px 7px rgb(84, 131, 14);
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+
+            text-shadow: 2px 2px 5px skyblue;
+        }
+
+        .left img {
+            width: 80px;
+        }
+
+        .btn {
+            margin: 0px 9px;
+            background-color: rgb(14, 20, 5);
+            color: white;
+            font-size: 16px;
+            padding: 5px 14px;
+            border: 1px solid greenyellow;
+            border-radius: 3px;
+            cursor: pointer;
+            font-family: 'Baloo Da 2', cursive;
+            font-family: 'Dancing Script', cursive;
+            font-family: 'Lobster', cursive;
+            font-family: 'Patua One', cursive;
+        }
+
+        .btn:hover {
+            background-color: rgb(78, 76, 76);
+        }
+
+        .container {
+            border: 2px solid white;
+            margin-top: 150px;
+            padding: 10px;
+            width: 30%;
+            border-radius: 5px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .form-group input {
+            margin: 10px auto;
+            text-align: center;
+            display: block;
+            width: 80%;
+            padding: 5px;
+            font-size: 15px;
+        }
+
+        .container h1 {
+            text-align: center;
+        }
+
+        .container button {
+            display: block;
+            width: 82%;
+            margin: 22px auto;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="logo.png" style="margin-left: 10px;">
+            <div style="font-size: 20px;">CodeX GYM</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">HOME</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">FITNESS CALCULATOR</a></li>
+                <li><a href="#">CONTACT US</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call Us Now at<br>+91-9345XXXXXX</button>
+            <button class="btn">Email Us at<br>codeX9297@gmail.com</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join best gym of Kanpur now... </h1>
+        <form action="#">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Name">
+            </div>
+            <div class="form-group">
+                <input type="tel" name="" placeholder="Enter Your Contact Number">
+            </div>
+            <div class="form-group">
+                <input type="number" name="" placeholder="Enter Your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Gender">
+            </div>
+            <button class="btn">SUBMIT</button>
+        </form>
+    </div>
+</body>
+
+</html>
